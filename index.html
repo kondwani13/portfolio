@@ -1017,7 +1017,7 @@
         let modelObject; // To store the loaded model
 
         gltfLoader.load(
-            'src/models/animated_model.glb', // Replace with the actual path to your glTF file
+            '/models/animated_model.glb', // Replace with the actual path to your glTF file
             (gltf) => {
                 modelObject = gltf.scene;
                 modelObject.traverse(function (child) {
