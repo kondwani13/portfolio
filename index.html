@@ -22,10 +22,10 @@
         }
         #threejs-canvas { 
             width: 100%;
-            height: auto;
+            height: 100vh !important;
             position: absolute;
             justify-content: center;
-            top: 19%;
+            hei
             left: 0%
             
 
@@ -41,11 +41,11 @@
         
         @media (max-width: 768px) { /* Adjust the breakpoint as needed */
             #loader-container {
-                height: 100vh; /* Use viewport height for full screen on mobile */
+                height: 100vh !important; /* Use viewport height for full screen on mobile */
             }
             #threejs-canvas {
                 width: 100vw; /* Take up full width */
-                height: 100vh; /* Take up full height */
+                height: 100vh !important; /* Take up full height */
             }
         }
 
