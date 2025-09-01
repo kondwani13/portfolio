@@ -1078,7 +1078,7 @@
         function animate() {
             requestAnimationFrame(animate);
             if (mixer) {
-                mixer.update(0.016); // Delta time
+                mixer.update(0.010); // Delta time
             }
             controls.update(); // Update the orbit controls
             renderer.render(scene, camera);
